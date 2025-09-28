@@ -7,8 +7,8 @@ export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  retries: 0,
+  workers: 1,
   reporter: [
     ['html'],
     ['json', { outputFile: 'reports/test-results.json' }],
@@ -16,14 +16,15 @@ export default defineConfig({
     ['allure-playwright', { outputFolder: 'allure-results' }],
     ['list'],
   ],
-
+  timeout: 80000,
   use: {
-    baseURL: process.env.BASE_URL || 'http://localhost:3000',
+    baseURL: 'https://www.mymusicstaff.com/',
+    storageState: './tests/auth.json',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    actionTimeout: 10000,
-    navigationTimeout: 30000,
+    actionTimeout: 40000,
+    navigationTimeout: 60000,
   },
 
   projects: [
@@ -74,12 +75,5 @@ export default defineConfig({
     },
   ],
 
-  webServer: process.env.CI
-    ? undefined
-    : {
-        command: 'docker-compose up',
-        url: 'http://localhost:3000/health',
-        reuseExistingServer: !process.env.CI,
-        timeout: 120000,
-      },
+  webServer: undefined,
 });

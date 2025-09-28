@@ -1,4 +1,4 @@
-import { Page, Locator } from '@playwright/test';
+import { Page } from '@playwright/test';
 
 export abstract class BasePage {
   protected page: Page;
@@ -6,7 +6,7 @@ export abstract class BasePage {
 
   constructor(page: Page) {
     this.page = page;
-    this.baseURL = process.env.BASE_URL || 'http://localhost:3000';
+    this.baseURL = 'https://www.mymusicstaff.com/';
   }
 
   async navigate(path: string = ''): Promise<void> {

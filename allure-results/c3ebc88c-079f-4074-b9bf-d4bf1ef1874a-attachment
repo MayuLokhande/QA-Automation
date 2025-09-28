@@ -1,0 +1,211 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - button [ref=e2] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e9]:
+      - button [ref=e11]:
+        - img [ref=e13]
+        - img [ref=e15]
+      - list [ref=e17]:
+        - generic [ref=e18]:
+          - listitem [ref=e19] [cursor=pointer]:
+            - link "Home" [ref=e22] [cursor=pointer]:
+              - /url: /Teacher/v2/en/home
+              - generic [ref=e23] [cursor=pointer]:
+                - img [ref=e29] [cursor=pointer]
+                - paragraph [ref=e31] [cursor=pointer]: Home
+          - listitem [ref=e32] [cursor=pointer]:
+            - link "Students" [ref=e35] [cursor=pointer]:
+              - /url: /Teacher/v2/en/students#Students
+              - generic [ref=e36] [cursor=pointer]:
+                - img [ref=e42] [cursor=pointer]
+                - paragraph [ref=e45] [cursor=pointer]: Students
+          - listitem [ref=e46] [cursor=pointer]:
+            - link "Calendar" [ref=e49] [cursor=pointer]:
+              - /url: /Teacher/v2/en/calendar
+              - generic [ref=e50] [cursor=pointer]:
+                - img [ref=e56] [cursor=pointer]
+                - paragraph [ref=e58] [cursor=pointer]: Calendar
+          - listitem [ref=e59] [cursor=pointer]:
+            - link "Repertoire" [ref=e62] [cursor=pointer]:
+              - /url: /Teacher/v2/en/repertoire
+              - generic [ref=e63] [cursor=pointer]:
+                - img [ref=e69] [cursor=pointer]
+                - paragraph [ref=e71] [cursor=pointer]: Repertoire
+          - listitem [ref=e72] [cursor=pointer]:
+            - link "Lending Library" [ref=e75] [cursor=pointer]:
+              - /url: /Teacher/v2/en/lending-library#Library
+              - generic [ref=e76] [cursor=pointer]:
+                - img [ref=e82] [cursor=pointer]
+                - paragraph [ref=e84] [cursor=pointer]: Lending Library
+          - listitem [ref=e85] [cursor=pointer]:
+            - link "Online Resources" [ref=e88] [cursor=pointer]:
+              - /url: /Teacher/v2/en/online-resources
+              - generic [ref=e89] [cursor=pointer]:
+                - img [ref=e95] [cursor=pointer]
+                - paragraph [ref=e97] [cursor=pointer]: Online Resources
+          - listitem [ref=e98] [cursor=pointer]:
+            - link "Families & Invoices" [ref=e101] [cursor=pointer]:
+              - /url: /Teacher/v2/en/families-invoices
+              - generic [ref=e102] [cursor=pointer]:
+                - img [ref=e108] [cursor=pointer]
+                - paragraph [ref=e111] [cursor=pointer]: Families & Invoices
+          - listitem [ref=e112] [cursor=pointer]:
+            - link "Expenses & Other Revenue" [ref=e115] [cursor=pointer]:
+              - /url: /Teacher/v2/en/expenses
+              - generic [ref=e116] [cursor=pointer]:
+                - img [ref=e122] [cursor=pointer]
+                - paragraph [ref=e124] [cursor=pointer]: Expenses & Other Revenue
+          - listitem [ref=e125] [cursor=pointer]:
+            - link "Mileage Log" [ref=e128] [cursor=pointer]:
+              - /url: /Teacher/v2/en/mileage?teacherID=tch_zskgJy
+              - generic [ref=e129] [cursor=pointer]:
+                - img [ref=e135] [cursor=pointer]
+                - paragraph [ref=e137] [cursor=pointer]: Mileage Log
+          - listitem [ref=e138] [cursor=pointer]:
+            - link "Website" [ref=e141] [cursor=pointer]:
+              - /url: /Teacher/v2/en/website
+              - generic [ref=e142] [cursor=pointer]:
+                - img [ref=e148] [cursor=pointer]
+                - paragraph [ref=e150] [cursor=pointer]: Website
+          - listitem [ref=e151] [cursor=pointer]:
+            - link "News & Blog Posts" [ref=e154] [cursor=pointer]:
+              - /url: /Teacher/v2/en/posts
+              - generic [ref=e155] [cursor=pointer]:
+                - img [ref=e161] [cursor=pointer]
+                - paragraph [ref=e166] [cursor=pointer]: News & Blog Posts
+          - listitem [ref=e167] [cursor=pointer]:
+            - link "Business Reports" [ref=e170] [cursor=pointer]:
+              - /url: /Teacher/v2/en/reports
+              - generic [ref=e171] [cursor=pointer]:
+                - img [ref=e177] [cursor=pointer]
+                - paragraph [ref=e179] [cursor=pointer]: Business Reports
+          - contentinfo [ref=e181]:
+            - caption [ref=e182]: Copyright © 2013 - 2025 Port 443 Inc.
+    - generic [ref=e184]:
+      - generic [ref=e186]:
+        - banner [ref=e187]:
+          - heading "Students" [level=3] [ref=e188]
+        - generic [ref=e189]:
+          - button [ref=e195] [cursor=pointer]:
+            - img [ref=e201] [cursor=pointer]
+          - button [ref=e205] [cursor=pointer]:
+            - img [ref=e211] [cursor=pointer]
+          - generic [ref=e215] [cursor=pointer]:
+            - paragraph [ref=e222] [cursor=pointer]: ML
+            - paragraph [ref=e223] [cursor=pointer]: Mayura Lokhande
+      - generic [ref=e227]:
+        - tablist [ref=e234]:
+          - generic [ref=e235]:
+            - tab "Students" [selected] [ref=e236] [cursor=pointer]:
+              - paragraph [ref=e241] [cursor=pointer]: Students
+            - tab "Group Tags" [ref=e242] [cursor=pointer]:
+              - paragraph [ref=e247] [cursor=pointer]: Group Tags
+        - generic [ref=e250]:
+          - tabpanel [ref=e251]:
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - img [ref=e259]
+                - button "2 Trial" [ref=e262] [cursor=pointer]:
+                  - generic [ref=e265] [cursor=pointer]: 2 Trial
+              - generic [ref=e268]:
+                - generic [ref=e271]:
+                  - generic [ref=e273]:
+                    - button "Add New" [ref=e278] [cursor=pointer]:
+                      - generic [ref=e279] [cursor=pointer]:
+                        - img [ref=e284] [cursor=pointer]
+                        - generic [ref=e287] [cursor=pointer]: Add New
+                        - img [ref=e292] [cursor=pointer]
+                    - button "Messaging" [ref=e298] [cursor=pointer]:
+                      - generic [ref=e299] [cursor=pointer]:
+                        - img [ref=e304] [cursor=pointer]
+                        - generic [ref=e307] [cursor=pointer]: Messaging
+                        - img [ref=e312] [cursor=pointer]
+                    - generic [ref=e315]:
+                      - generic:
+                        - generic:
+                          - button "Options" [disabled]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - generic:
+                                - generic: Options
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                  - generic [ref=e316]:
+                    - generic [ref=e319]:
+                      - generic:
+                        - generic:
+                          - button "Columns" [disabled]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - generic:
+                                - generic: Columns
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                    - generic [ref=e322]:
+                      - generic:
+                        - generic:
+                          - button "Sort" [disabled]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - generic:
+                                - generic: Sort
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                    - button "Search" [expanded] [ref=e328] [cursor=pointer]:
+                      - generic [ref=e329] [cursor=pointer]:
+                        - img [ref=e334] [cursor=pointer]
+                        - generic [ref=e337] [cursor=pointer]: Search
+                        - img [ref=e342] [cursor=pointer]
+                - generic [ref=e346]:
+                  - img [ref=e347]
+                  - generic [ref=e348]:
+                    - heading "You don't have active students" [level=4] [ref=e350]
+                    - paragraph [ref=e351]: Click the Search button to filter by another student status
+          - tabpanel [ref=e352]
+  - contentinfo
+  - iframe [ref=e354]:
+    
+  - menu [ref=e357]:
+    - generic [ref=e360]:
+      - generic [ref=e362]:
+        - generic [ref=e368]:
+          - img [ref=e373]
+          - textbox "Search..." [active] [ref=e375]
+        - generic [ref=e378]:
+          - paragraph [ref=e383]:
+            - generic [ref=e384]: By Status
+          - generic [ref=e387]:
+            - generic [ref=e390]: Active
+            - combobox [ref=e391]
+            - img [ref=e396]
+      - separator [ref=e398]
+      - generic [ref=e399]:
+        - button "Clear" [ref=e402] [cursor=pointer]:
+          - generic [ref=e404] [cursor=pointer]: Clear
+        - button "Search" [ref=e407] [cursor=pointer]:
+          - generic [ref=e409] [cursor=pointer]: Search
+```

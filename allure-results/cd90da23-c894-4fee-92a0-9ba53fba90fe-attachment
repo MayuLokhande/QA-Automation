@@ -1,0 +1,164 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button [ref=e2] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e9]:
+      - button [ref=e11]:
+        - img [ref=e13]
+        - img [ref=e15]
+      - list [ref=e17]:
+        - generic [ref=e18]:
+          - listitem [ref=e19] [cursor=pointer]:
+            - link "Home" [ref=e22] [cursor=pointer]:
+              - /url: /Teacher/v2/en/home
+              - generic [ref=e23] [cursor=pointer]:
+                - img [ref=e29] [cursor=pointer]
+                - paragraph [ref=e31] [cursor=pointer]: Home
+          - listitem [ref=e32] [cursor=pointer]:
+            - link "Students" [ref=e35] [cursor=pointer]:
+              - /url: /Teacher/v2/en/students#Students
+              - generic [ref=e36] [cursor=pointer]:
+                - img [ref=e42] [cursor=pointer]
+                - paragraph [ref=e45] [cursor=pointer]: Students
+          - listitem [ref=e46] [cursor=pointer]:
+            - link "Calendar" [ref=e49] [cursor=pointer]:
+              - /url: /Teacher/v2/en/calendar
+              - generic [ref=e50] [cursor=pointer]:
+                - img [ref=e56] [cursor=pointer]
+                - paragraph [ref=e58] [cursor=pointer]: Calendar
+          - listitem [ref=e59] [cursor=pointer]:
+            - link "Repertoire" [ref=e62] [cursor=pointer]:
+              - /url: /Teacher/v2/en/repertoire
+              - generic [ref=e63] [cursor=pointer]:
+                - img [ref=e69] [cursor=pointer]
+                - paragraph [ref=e71] [cursor=pointer]: Repertoire
+          - listitem [ref=e72] [cursor=pointer]:
+            - link "Lending Library" [ref=e75] [cursor=pointer]:
+              - /url: /Teacher/v2/en/lending-library#Library
+              - generic [ref=e76] [cursor=pointer]:
+                - img [ref=e82] [cursor=pointer]
+                - paragraph [ref=e84] [cursor=pointer]: Lending Library
+          - listitem [ref=e85] [cursor=pointer]:
+            - link "Online Resources" [ref=e88] [cursor=pointer]:
+              - /url: /Teacher/v2/en/online-resources
+              - generic [ref=e89] [cursor=pointer]:
+                - img [ref=e95] [cursor=pointer]
+                - paragraph [ref=e97] [cursor=pointer]: Online Resources
+          - listitem [ref=e98] [cursor=pointer]:
+            - link "Families & Invoices" [ref=e101] [cursor=pointer]:
+              - /url: /Teacher/v2/en/families-invoices
+              - generic [ref=e102] [cursor=pointer]:
+                - img [ref=e108] [cursor=pointer]
+                - paragraph [ref=e111] [cursor=pointer]: Families & Invoices
+          - listitem [ref=e112] [cursor=pointer]:
+            - link "Expenses & Other Revenue" [ref=e115] [cursor=pointer]:
+              - /url: /Teacher/v2/en/expenses
+              - generic [ref=e116] [cursor=pointer]:
+                - img [ref=e122] [cursor=pointer]
+                - paragraph [ref=e124] [cursor=pointer]: Expenses & Other Revenue
+          - listitem [ref=e125] [cursor=pointer]:
+            - link "Mileage Log" [ref=e128] [cursor=pointer]:
+              - /url: /Teacher/v2/en/mileage?teacherID=tch_zskgJy
+              - generic [ref=e129] [cursor=pointer]:
+                - img [ref=e135] [cursor=pointer]
+                - paragraph [ref=e137] [cursor=pointer]: Mileage Log
+          - listitem [ref=e138] [cursor=pointer]:
+            - link "Website" [ref=e141] [cursor=pointer]:
+              - /url: /Teacher/v2/en/website
+              - generic [ref=e142] [cursor=pointer]:
+                - img [ref=e148] [cursor=pointer]
+                - paragraph [ref=e150] [cursor=pointer]: Website
+          - listitem [ref=e151] [cursor=pointer]:
+            - link "News & Blog Posts" [ref=e154] [cursor=pointer]:
+              - /url: /Teacher/v2/en/posts
+              - generic [ref=e155] [cursor=pointer]:
+                - img [ref=e161] [cursor=pointer]
+                - paragraph [ref=e166] [cursor=pointer]: News & Blog Posts
+          - listitem [ref=e167] [cursor=pointer]:
+            - link "Business Reports" [ref=e170] [cursor=pointer]:
+              - /url: /Teacher/v2/en/reports
+              - generic [ref=e171] [cursor=pointer]:
+                - img [ref=e177] [cursor=pointer]
+                - paragraph [ref=e179] [cursor=pointer]: Business Reports
+          - contentinfo [ref=e181]:
+            - caption [ref=e182]: Copyright © 2013 - 2025 Port 443 Inc.
+    - generic [ref=e184]:
+      - generic [ref=e186]:
+        - banner [ref=e187]:
+          - heading "Home" [level=3] [ref=e188]
+        - generic [ref=e189]:
+          - button [ref=e195] [cursor=pointer]:
+            - img [ref=e201] [cursor=pointer]
+          - button [ref=e205] [cursor=pointer]:
+            - img [ref=e211] [cursor=pointer]
+          - generic [ref=e215] [cursor=pointer]:
+            - paragraph [ref=e222] [cursor=pointer]: ML
+            - paragraph [ref=e223] [cursor=pointer]: Mayura Lokhande
+      - generic [ref=e226]:
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - heading "Let's get started, Mayura!" [level=3] [ref=e231]
+            - generic [ref=e232]:
+              - button [ref=e239] [cursor=pointer]:
+                - img [ref=e245] [cursor=pointer]
+              - img [ref=e252] [cursor=pointer]
+          - img "Home Page Logo" [ref=e256]
+          - generic [ref=e262]:
+            - img [ref=e268] [cursor=pointer]
+            - generic [ref=e271]:
+              - generic [ref=e272]:
+                - img [ref=e279]
+                - generic [ref=e282]: Create Your Account
+              - generic [ref=e283]:
+                - img [ref=e291] [cursor=pointer]
+                - generic [ref=e294] [cursor=pointer]: Add a Student
+              - generic [ref=e295]:
+                - img [ref=e303] [cursor=pointer]
+                - generic [ref=e307] [cursor=pointer]: Schedule an Event
+              - generic [ref=e308]:
+                - img [ref=e316] [cursor=pointer]
+                - generic [ref=e319] [cursor=pointer]: Create an Invoice
+              - generic [ref=e320]:
+                - img [ref=e328]
+                - generic [ref=e334]: You've got it!
+          - generic [ref=e338]:
+            - generic [ref=e339] [cursor=pointer]:
+              - img [ref=e346] [cursor=pointer]
+              - heading "0" [level=5] [ref=e349] [cursor=pointer]
+              - paragraph [ref=e351] [cursor=pointer]: Events left this week for you
+            - generic [ref=e352] [cursor=pointer]:
+              - img [ref=e359] [cursor=pointer]
+              - heading "0" [level=5] [ref=e364] [cursor=pointer]
+              - paragraph [ref=e366] [cursor=pointer]: Payments received this month
+            - generic [ref=e367] [cursor=pointer]:
+              - img [ref=e374] [cursor=pointer]
+              - heading "₹ 0.00" [level=5] [ref=e377] [cursor=pointer]
+              - paragraph [ref=e379] [cursor=pointer]: Projected revenue this month
+            - generic [ref=e380] [cursor=pointer]:
+              - img [ref=e387] [cursor=pointer]
+              - heading "0" [level=5] [ref=e391] [cursor=pointer]
+              - paragraph [ref=e393] [cursor=pointer]: Active Students
+        - generic [ref=e395]:
+          - generic [ref=e396]:
+            - generic [ref=e397]:
+              - generic [ref=e400] [cursor=pointer]:
+                - paragraph [ref=e401] [cursor=pointer]: 27-09-2025
+                - img [ref=e406] [cursor=pointer]
+              - heading "Agenda" [level=5] [ref=e408]
+            - generic [ref=e409]:
+              - button [ref=e411] [cursor=pointer]:
+                - img [ref=e418] [cursor=pointer]
+              - button "Today" [ref=e421] [cursor=pointer]:
+                - generic [ref=e424] [cursor=pointer]: Today
+              - button [ref=e426] [cursor=pointer]:
+                - img [ref=e433] [cursor=pointer]
+          - separator [ref=e435]
+        - generic [ref=e441]:
+          - img "Empty table graphic" [ref=e442]
+          - heading "There's nothing on your schedule for 27-09-2025" [level=4] [ref=e445]
+  - contentinfo
+  - iframe [ref=e447]:
+    
+```

@@ -1,0 +1,695 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner "Site" [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link:
+            - /url: https://www.mymusicstaff.com/
+        - navigation "Primary" [ref=e7]:
+          - generic [ref=e9]:
+            - text: 
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - button "Features" [ref=e12] [cursor=pointer]:
+                  - text: Features
+                  - generic [ref=e13] [cursor=pointer]: 
+              - listitem [ref=e14]:
+                - link "Pricing" [ref=e15] [cursor=pointer]:
+                  - /url: https://www.mymusicstaff.com/pricing/
+              - listitem [ref=e16]:
+                - link "Contact" [ref=e17] [cursor=pointer]:
+                  - /url: https://www.mymusicstaff.com/contact/
+              - listitem [ref=e18]:
+                - link "Support" [ref=e19] [cursor=pointer]:
+                  - /url: https://support.mymusicstaff.com/
+              - listitem [ref=e20]:
+                - link "Join Free" [ref=e21] [cursor=pointer]:
+                  - /url: /join-free/
+              - listitem [ref=e22]:
+                - link "Book a Demo" [ref=e23] [cursor=pointer]:
+                  - /url: https://www.mymusicstaff.com/book-demo/
+              - listitem [ref=e24]:
+                - link "Login" [ref=e25] [cursor=pointer]:
+                  - /url: https://app.mymusicstaff.com/
+    - text:  
+  - main [ref=e29]:
+    - article [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e37]:
+          - generic [ref=e40]:
+            - paragraph [ref=e43]: Helping you…
+            - paragraph [ref=e45]:
+              - text: "My Music Staff is the #1 studio management software for private music teachers & music studios. Student management, flexible scheduling, online payments, and more –"
+              - strong [ref=e46]: all in one place
+              - text: "!"
+            - link "Get started today!" [ref=e48] [cursor=pointer]:
+              - /url: /join-free
+          - generic:
+            - generic:
+              - generic:
+                - figure:
+                  - img "homepage-devices-v2@2x" [ref=e49]
+        - generic [ref=e51]:
+          - heading "Designed for music studios of all sizes" [level=2] [ref=e56]:
+            - text: Designed for music studios of
+            - generic [ref=e57]: all sizes
+          - generic [ref=e58]:
+            - generic [ref=e61]:
+              - figure [ref=e62]:
+                - img "private-in-home-lessons" [ref=e63]
+              - heading "Private In-Home Lessons" [level=4] [ref=e66]
+            - generic [ref=e69]:
+              - figure [ref=e70]:
+                - img "music-studios-and-schools" [ref=e71]
+              - heading "Music Studios & Schools" [level=4] [ref=e74]
+            - generic [ref=e77]:
+              - figure [ref=e78]:
+                - img "travelling-teachers" [ref=e79]
+              - heading "Travelling Teachers" [level=4] [ref=e82]
+            - generic [ref=e85]:
+              - figure [ref=e86]:
+                - img "retail-lesson-programs" [ref=e87]
+              - heading "Retail Lesson Programs" [level=4] [ref=e90]
+        - generic:
+          - generic:
+            - figure
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Start your 30-DAY FREE trial now" [level=2]:
+                      - text: Start your
+                      - generic: 30-DAY FREE
+                      - text: trial now
+                    - paragraph: No credit card required
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link "Get started today!":
+                            - /url: /join-free
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Organize your lessons" [level=2]
+                        - generic:
+                          - list:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Schedule private & group lessons
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Customize categories & locations
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Send automatic email & SMS reminders
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Take attendance & record detailed notes
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sync to your personal calendar
+                        - generic:
+                          - generic:
+                            - generic:
+                              - list:
+                                - listitem:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - blockquote:
+                                          - emphasis: “I can see my calendar at a glance and adding group classes and events takes seconds!”
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: Christine O.
+                  - generic:
+                    - generic:
+                      - generic:
+                        - figure:
+                          - img "mms-calendar-attendance"
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - figure:
+                          - img "manage-your-students"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Manage your students" [level=2]
+                        - generic:
+                          - list:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Organize your student list
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Keep family contact info in one place
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Track your waitlist & leads
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Send bulk emails & SMS messages
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Import your existing student list with ease
+                        - generic:
+                          - generic:
+                            - generic:
+                              - list:
+                                - listitem:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - blockquote:
+                                          - emphasis: “My Music Staff really is like having an office assistant. All of my students’ contact info is in one place. I’m able to create mass emails that are still personalized to each student with their email template creator. It saves me hours every week!”
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: Caitlin C.
+        - generic [ref=e97]:
+          - link [ref=e98] [cursor=pointer]:
+            - /url: https://www.capterra.com/p/148451/My-Music-Staff/
+            - img [ref=e99] [cursor=pointer]
+          - link [ref=e100] [cursor=pointer]:
+            - /url: https://www.capterra.com/p/148451/My-Music-Staff/
+            - img [ref=e101] [cursor=pointer]
+          - link [ref=e102] [cursor=pointer]:
+            - /url: getapp.com/education-childcare-software/a/my-music-staff/
+            - img [ref=e103] [cursor=pointer]
+          - link [ref=e104] [cursor=pointer]:
+            - /url: https://www.softwareadvice.com/music-school/my-music-staff-profile
+            - img [ref=e105] [cursor=pointer]
+          - link [ref=e106] [cursor=pointer]:
+            - /url: https://www.softwareadvice.com/music-school/my-music-staff-profile
+            - img [ref=e107] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - figure
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img:
+                                    - img
+                                  - img:
+                                    - img
+                                  - img:
+                                    - img
+                                  - img:
+                                    - img
+                                    - text: ">"
+                                  - img:
+                                    - img
+                                - generic: "4.8"
+                            - paragraph: 754 Reviews
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: 5 Star
+                                    - generic:
+                                      - progressbar
+                                    - generic: 83%
+                                  - generic:
+                                    - generic: 4 Star
+                                    - generic:
+                                      - progressbar
+                                    - generic: 16%
+                                  - generic:
+                                    - generic: 3 Star
+                                    - generic:
+                                      - progressbar
+                                    - generic: 1%
+                                  - generic:
+                                    - generic: 2 Star
+                                    - generic:
+                                      - progressbar
+                                    - generic: 0%
+                                  - generic:
+                                    - link "Read the reviews":
+                                      - /url: https://www.capterra.ca/reviews/148451/my-music-staff
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - figure:
+                          - img "mms-invoicing-hp"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Get paid on time" [level=2]
+                        - generic:
+                          - list:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Save time with calendar-based billing
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Create professional invoices
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Automate invoicing & online payments
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Send overdue reminders & late fees
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Accept Visa, MasterCard, Amex, ACH (US), & Bacs (UK)
+                        - generic:
+                          - generic:
+                            - generic:
+                              - list:
+                                - listitem:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - blockquote:
+                                          - emphasis: “I love that I can set up MMS to automatically send an invoice out to my parents, and when they “forget” to pay, it also automatically sends out a late fee. No longer do I spend the month trying to track down all the payments, it’s done for me! So easy, and I don’t have to be the bad guy!”
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: Dori S.
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - figure
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Create a website" [level=2]
+                        - generic:
+                          - list:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Drag & drop content with the user-friendly visual editor
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Customize with your brand colors, logo, domain, and more
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Collect new student sign-ups with a customizable form
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Select from one of the mobile-friendly site templates
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Manage your media files or choose from stock photos
+                        - generic:
+                          - generic:
+                            - generic:
+                              - list:
+                                - listitem:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - blockquote:
+                                          - emphasis: “I used to pay for another website maker that wasn’t nearly as easy to use! My studio site is so professional now thanks to My Music Staff. Great work!”
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: Jazmine R.
+                  - generic:
+                    - generic:
+                      - generic:
+                        - figure:
+                          - img "create-a-website@2x"
+        - generic [ref=e110]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - figure:
+                            - img "practice-log-hp@2x"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Invite families to the Student Portal" [level=2]
+                          - generic:
+                            - list:
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Create open lesson slots for families to register
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Customize policies & deadlines for cancellations
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Give access to lesson notes, online resources, & studio news
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Allow online payments through the Portal
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Add login widget to your studio website
+                          - generic:
+                            - generic:
+                              - generic:
+                                - list:
+                                  - listitem:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - blockquote:
+                                            - emphasis: “The Student Portal has completely transformed how I stay connected with families. Everything—from lesson notes to payments—is in one place, and parents love how easy it is to use.”
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: Melissa T.
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Automate your trial lessons" [level=2]
+                        - generic:
+                          - list:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Eliminate back-and-forth emails
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Let new students or parents self-book on your website
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Offer free or paid trial lessons (with payment collected at booking)
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Automatically tag new leads for easy organization
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Hold the weekly slot while students or parents decide
+                        - generic:
+                          - generic:
+                            - generic:
+                              - list:
+                                - listitem:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - blockquote:
+                                          - emphasis: “Automating my consultations has saved me hours each week. New leads can self-book, and everything’s organized right from the start.”
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: Caleb R.
+                  - generic:
+                    - generic:
+                      - generic:
+                        - figure:
+                          - img "book-now-hp@2x"
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Start your 30-DAY FREE trial now" [level=2]:
+                      - text: Start your
+                      - generic: 30-DAY FREE
+                      - text: trial now
+                    - paragraph: No credit card required
+                    - generic:
+                      - generic:
+                        - generic:
+                          - link "Get started today!":
+                            - /url: /join-free
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - figure
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - figure:
+                          - img "hp-Getting-Started-Guide-v3"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Jump into the Getting Started Guide" [level=2]:
+                          - text: Jump into the
+                          - generic: Getting Started
+                          - generic: Guide
+                        - generic:
+                          - link "Read the guide":
+                            - /url: /the-basics
+  - generic [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e120]:
+            - heading "Ready to get started?" [level=2] [ref=e121]
+            - paragraph [ref=e122]:
+              - text: Create your
+              - strong [ref=e123]: 30-day free trial
+              - text: and get started with My Music Staff today!
+            - link "Get started" [ref=e125] [cursor=pointer]:
+              - /url: /join-free
+          - generic [ref=e126]:
+            - paragraph
+            - paragraph [ref=e127]: "Languages supported:"
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - img "English flag" [ref=e130]
+                - text: English
+              - generic [ref=e131]:
+                - img "French flag" [ref=e132]
+                - text: French
+              - generic [ref=e133]:
+                - img "Japanese flag" [ref=e134]
+                - text: Japanese
+              - generic [ref=e135]:
+                - img "Spanish flag" [ref=e136]
+                - text: Spanish
+              - generic [ref=e137]:
+                - img "Dutch flag" [ref=e138]
+                - text: Dutch
+              - generic [ref=e139]:
+                - img "German flag" [ref=e140]
+                - text: German
+            - paragraph
+        - generic [ref=e142]:
+          - heading "Features" [level=6] [ref=e143]:
+            - strong [ref=e144]: Features
+          - paragraph [ref=e145]:
+            - link "Student Management" [ref=e146] [cursor=pointer]:
+              - /url: /student-management/
+          - paragraph [ref=e147]:
+            - link "Calendar & Attendance" [ref=e148] [cursor=pointer]:
+              - /url: /calendar-attendance/
+          - paragraph [ref=e149]:
+            - link "Invoices & Payments" [ref=e150] [cursor=pointer]:
+              - /url: /invoices-payments/
+          - paragraph [ref=e151]:
+            - link "Business Features" [ref=e152] [cursor=pointer]:
+              - /url: /business-features/
+          - paragraph [ref=e153]:
+            - link "Learning Management" [ref=e154] [cursor=pointer]:
+              - /url: /learning-management/
+          - paragraph [ref=e155]:
+            - link "Multi-Teacher" [ref=e156] [cursor=pointer]:
+              - /url: /multi-teacher/
+          - paragraph [ref=e157]:
+            - link "Student Portal" [ref=e158] [cursor=pointer]:
+              - /url: /student-portal/
+          - paragraph [ref=e159]:
+            - link "Website Builder" [ref=e160] [cursor=pointer]:
+              - /url: https://www.mymusicstaff.com/website-builder/
+        - generic [ref=e162]:
+          - heading "Useful Links" [level=6] [ref=e163]:
+            - strong [ref=e164]: Useful Links
+          - paragraph [ref=e165]:
+            - link "Pricing" [ref=e166] [cursor=pointer]:
+              - /url: /pricing
+          - paragraph [ref=e167]:
+            - link "Contact" [ref=e168] [cursor=pointer]:
+              - /url: /contact
+          - paragraph [ref=e169]:
+            - link "Support" [ref=e170] [cursor=pointer]:
+              - /url: http://support.mymusicstaff.com
+          - paragraph [ref=e171]:
+            - link "Getting Started Guide" [ref=e172] [cursor=pointer]:
+              - /url: /the-basics
+          - paragraph [ref=e173]:
+            - link "Book a Demo" [ref=e174] [cursor=pointer]:
+              - /url: /book-demo
+          - paragraph [ref=e175]:
+            - link "Product Updates" [ref=e176] [cursor=pointer]:
+              - /url: /blog
+          - paragraph [ref=e177]:
+            - link "Activity Sheets" [ref=e178] [cursor=pointer]:
+              - /url: https://resources.mymusicstaff.com/
+          - paragraph [ref=e179]:
+            - link "Privacy Policy" [ref=e180] [cursor=pointer]:
+              - /url: /privacy-policy
+        - generic [ref=e182]:
+          - heading "Contact" [level=6] [ref=e183]:
+            - strong [ref=e184]: Contact
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - img [ref=e189]
+              - generic [ref=e192]: support@mymusicstaff.com
+            - listitem [ref=e193]:
+              - img [ref=e195]
+              - generic [ref=e197]:
+                - strong [ref=e198]: "Toll Free (US & Canada):"
+                - text: 1 888 732 6134
+            - listitem [ref=e199]:
+              - img [ref=e201]
+              - generic [ref=e203]:
+                - strong [ref=e204]: "UK:"
+                - text: 0203 966 7794
+            - listitem [ref=e205]:
+              - img [ref=e207]
+              - generic [ref=e209]:
+                - strong [ref=e210]: "International:"
+                - text: +1 905 963 8780
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - link "Facebook" [ref=e213] [cursor=pointer]:
+                - /url: https://www.facebook.com/mymusicstaffofficial
+                - img [ref=e214] [cursor=pointer]
+                - generic [ref=e216] [cursor=pointer]: Facebook
+            - listitem [ref=e217]:
+              - link "Instagram" [ref=e218] [cursor=pointer]:
+                - /url: https://www.instagram.com/mymusicstaffapp
+                - img [ref=e219] [cursor=pointer]
+                - generic [ref=e221] [cursor=pointer]: Instagram
+            - listitem [ref=e222]:
+              - link "X" [ref=e223] [cursor=pointer]:
+                - /url: https://twitter.com/mymusicstaff
+                - img [ref=e224] [cursor=pointer]
+                - generic [ref=e226] [cursor=pointer]: X
+            - listitem [ref=e227]:
+              - link "YouTube" [ref=e228] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/Mymusicstaff
+                - img [ref=e229] [cursor=pointer]
+                - generic [ref=e231] [cursor=pointer]: YouTube
+            - listitem [ref=e232]:
+              - link "Pinterest" [ref=e233] [cursor=pointer]:
+                - /url: https://www.pinterest.ca/mymusicstaff/
+                - img [ref=e234] [cursor=pointer]
+                - generic [ref=e236] [cursor=pointer]: Pinterest
+      - generic [ref=e239]:
+        - generic [ref=e242]:
+          - figure [ref=e243]:
+            - img "NAMM-Bestinshow" [ref=e244]
+          - paragraph [ref=e245]:
+            - generic [ref=e246]: ©
+            - text: Copyright 2025 Port 443 Inc. All rights reserved.
+        - generic [ref=e250]:
+          - generic [ref=e253]:
+            - paragraph [ref=e254]:
+              - text: Are you a private tutor?
+              - text: Check out
+              - strong [ref=e255]:
+                - link "TutorBird" [ref=e256] [cursor=pointer]:
+                  - /url: http://www.tutorbird.com
+              - text: .
+            - figure [ref=e257]
+          - generic [ref=e260]:
+            - paragraph [ref=e261]:
+              - text: Are you a personal trainer?
+              - text: Check out
+              - link "AthletaDesk" [ref=e262] [cursor=pointer]:
+                - /url: http://www.athletadesk.com
+                - strong [ref=e263] [cursor=pointer]: AthletaDesk
+              - text: .
+            - figure [ref=e264]
+    - generic:
+      - generic:
+        - img
+  - button "Scroll back to top" [ref=e265] [cursor=pointer]:
+    - img [ref=e267] [cursor=pointer]
+  - list [ref=e271]:
+    - listitem [ref=e272]:
+      - link "English" [ref=e273] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e274] [cursor=pointer]: English
+```

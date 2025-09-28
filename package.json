@@ -27,7 +27,8 @@
     "eslint-plugin-playwright": "^0.20.0",
     "faker": "^6.6.6",
     "prettier": "^3.1.0",
-    "typescript": "^5.3.0"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   },
   "keywords": [
     "playwright",

@@ -1,0 +1,13 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button [ref=e2] [cursor=pointer]
+  - generic [ref=e3]:
+    - button "Please Click To Refresh" [ref=e4] [cursor=pointer]: Please Click To Refresh
+    - generic [ref=e5]:
+      - generic [ref=e6]: Loading...
+      - generic [ref=e7]:
+        - img
+  - contentinfo
+```
