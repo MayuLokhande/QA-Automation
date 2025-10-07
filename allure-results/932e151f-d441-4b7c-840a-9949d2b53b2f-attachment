@@ -1,0 +1,289 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - button [ref=e2] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e9]:
+      - button [ref=e11]:
+        - img [ref=e13]
+        - img [ref=e15]
+      - list [ref=e17]:
+        - generic [ref=e18]:
+          - listitem [ref=e19] [cursor=pointer]:
+            - link "Home" [ref=e22] [cursor=pointer]:
+              - /url: /Teacher/v2/en/home
+              - generic [ref=e23] [cursor=pointer]:
+                - img [ref=e29] [cursor=pointer]
+                - paragraph [ref=e31] [cursor=pointer]: Home
+          - listitem [ref=e32] [cursor=pointer]:
+            - link "Students" [ref=e35] [cursor=pointer]:
+              - /url: /Teacher/v2/en/students#Students
+              - generic [ref=e36] [cursor=pointer]:
+                - img [ref=e42] [cursor=pointer]
+                - paragraph [ref=e45] [cursor=pointer]: Students
+          - listitem [ref=e46] [cursor=pointer]:
+            - link "Calendar" [ref=e49] [cursor=pointer]:
+              - /url: /Teacher/v2/en/calendar
+              - generic [ref=e50] [cursor=pointer]:
+                - img [ref=e56] [cursor=pointer]
+                - paragraph [ref=e58] [cursor=pointer]: Calendar
+          - listitem [ref=e59] [cursor=pointer]:
+            - link "Repertoire" [ref=e62] [cursor=pointer]:
+              - /url: /Teacher/v2/en/repertoire
+              - generic [ref=e63] [cursor=pointer]:
+                - img [ref=e69] [cursor=pointer]
+                - paragraph [ref=e71] [cursor=pointer]: Repertoire
+          - listitem [ref=e72] [cursor=pointer]:
+            - link "Lending Library" [ref=e75] [cursor=pointer]:
+              - /url: /Teacher/v2/en/lending-library#Library
+              - generic [ref=e76] [cursor=pointer]:
+                - img [ref=e82] [cursor=pointer]
+                - paragraph [ref=e84] [cursor=pointer]: Lending Library
+          - listitem [ref=e85] [cursor=pointer]:
+            - link "Online Resources" [ref=e88] [cursor=pointer]:
+              - /url: /Teacher/v2/en/online-resources
+              - generic [ref=e89] [cursor=pointer]:
+                - img [ref=e95] [cursor=pointer]
+                - paragraph [ref=e97] [cursor=pointer]: Online Resources
+          - listitem [ref=e98] [cursor=pointer]:
+            - link "Families & Invoices" [ref=e101] [cursor=pointer]:
+              - /url: /Teacher/v2/en/families-invoices
+              - generic [ref=e102] [cursor=pointer]:
+                - img [ref=e108] [cursor=pointer]
+                - paragraph [ref=e111] [cursor=pointer]: Families & Invoices
+          - listitem [ref=e112] [cursor=pointer]:
+            - link "Expenses & Other Revenue" [ref=e115] [cursor=pointer]:
+              - /url: /Teacher/v2/en/expenses
+              - generic [ref=e116] [cursor=pointer]:
+                - img [ref=e122] [cursor=pointer]
+                - paragraph [ref=e124] [cursor=pointer]: Expenses & Other Revenue
+          - listitem [ref=e125] [cursor=pointer]:
+            - link "Mileage Log" [ref=e128] [cursor=pointer]:
+              - /url: /Teacher/v2/en/mileage?teacherID=tch_zskgJy
+              - generic [ref=e129] [cursor=pointer]:
+                - img [ref=e135] [cursor=pointer]
+                - paragraph [ref=e137] [cursor=pointer]: Mileage Log
+          - listitem [ref=e138] [cursor=pointer]:
+            - link "Website" [ref=e141] [cursor=pointer]:
+              - /url: /Teacher/v2/en/website
+              - generic [ref=e142] [cursor=pointer]:
+                - img [ref=e148] [cursor=pointer]
+                - paragraph [ref=e150] [cursor=pointer]: Website
+          - listitem [ref=e151] [cursor=pointer]:
+            - link "News & Blog Posts" [ref=e154] [cursor=pointer]:
+              - /url: /Teacher/v2/en/posts
+              - generic [ref=e155] [cursor=pointer]:
+                - img [ref=e161] [cursor=pointer]
+                - paragraph [ref=e166] [cursor=pointer]: News & Blog Posts
+          - listitem [ref=e167] [cursor=pointer]:
+            - link "Business Reports" [ref=e170] [cursor=pointer]:
+              - /url: /Teacher/v2/en/reports
+              - generic [ref=e171] [cursor=pointer]:
+                - img [ref=e177] [cursor=pointer]
+                - paragraph [ref=e179] [cursor=pointer]: Business Reports
+          - contentinfo [ref=e181]:
+            - caption [ref=e182]: Copyright © 2013 - 2025 Port 443 Inc.
+    - generic [ref=e184]:
+      - generic [ref=e186]:
+        - banner [ref=e187]:
+          - heading "Students" [level=3] [ref=e188]
+        - generic [ref=e189]:
+          - button [ref=e195] [cursor=pointer]:
+            - img [ref=e201] [cursor=pointer]
+          - button [ref=e205] [cursor=pointer]:
+            - img [ref=e211] [cursor=pointer]
+          - generic [ref=e215] [cursor=pointer]:
+            - paragraph [ref=e222] [cursor=pointer]: ML
+            - paragraph [ref=e223] [cursor=pointer]: Mayura Lokhande
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - button "Back to Students" [ref=e231] [cursor=pointer]:
+            - generic [ref=e233] [cursor=pointer]:
+              - img [ref=e238] [cursor=pointer]
+              - generic [ref=e240] [cursor=pointer]: Back to Students
+          - generic [ref=e243]:
+            - paragraph
+            - combobox "Einstein, Elbert" [ref=e248]:
+              - generic [ref=e253] [cursor=pointer]:
+                - paragraph [ref=e254] [cursor=pointer]: Einstein, Elbert
+                - img [ref=e259] [cursor=pointer]
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e266]:
+              - heading [level=4]
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - generic [ref=e272]:
+                    - paragraph [ref=e275]: EE
+                    - generic [ref=e277]: Einstein, Elbert
+                  - button [ref=e280] [cursor=pointer]:
+                    - img [ref=e286] [cursor=pointer]
+                - generic [ref=e289]:
+                  - paragraph [ref=e293]: Active
+                  - paragraph [ref=e297]: Adult
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - separator [ref=e300]
+                  - generic [ref=e303]:
+                    - img [ref=e308]
+                    - paragraph [ref=e310]: elberteinstein@gmail.com
+                  - generic [ref=e311]:
+                    - generic [ref=e313]:
+                      - img [ref=e318]
+                      - paragraph [ref=e320]: "7744125986"
+                    - paragraph [ref=e325]: SMS Enabled
+                  - generic [ref=e327]:
+                    - img [ref=e332]
+                    - paragraph [ref=e334]: Mumbai
+                - separator [ref=e335]
+                - button "View Family Account" [ref=e338] [cursor=pointer]:
+                  - generic [ref=e340] [cursor=pointer]: View Family Account
+            - generic [ref=e343]:
+              - heading [level=4]
+              - generic [ref=e344]:
+                - generic [ref=e345]:
+                  - paragraph [ref=e346]: Default Settings
+                  - button [ref=e348] [cursor=pointer]:
+                    - img [ref=e354] [cursor=pointer]
+                - generic [ref=e356]:
+                  - paragraph [ref=e357]: Default Billing
+                  - paragraph [ref=e358]: Student pays an hourly rate
+                - generic [ref=e360]:
+                  - paragraph [ref=e361]: Default Lesson Category
+                  - paragraph [ref=e362]: Vacation
+                - generic [ref=e364]:
+                  - paragraph [ref=e365]: Default Duration
+                  - paragraph [ref=e366]: 30 minutes
+                - generic [ref=e368]:
+                  - paragraph [ref=e369]: Price
+                  - paragraph [ref=e370]: ₹ 30.00 / hour
+                - separator [ref=e371]
+                - generic [ref=e373]:
+                  - paragraph [ref=e374]: Make-Up Credits
+                  - paragraph [ref=e375]:
+                    - text: "Booked: 0 | Available: 0 |"
+                    - generic [ref=e376]: "Total: 0"
+            - generic [ref=e379]:
+              - heading [level=4]
+              - generic [ref=e380]:
+                - generic [ref=e381]:
+                  - paragraph [ref=e382]: Notes
+                  - button [ref=e384] [cursor=pointer]:
+                    - img [ref=e390] [cursor=pointer]
+                - paragraph [ref=e392]: Click the edit button to add a private note about this student
+            - generic [ref=e395]:
+              - heading [level=4]
+              - generic [ref=e396]:
+                - paragraph [ref=e397]: Attachments
+                - button "Add" [ref=e400] [cursor=pointer]:
+                  - generic [ref=e401] [cursor=pointer]:
+                    - img [ref=e406] [cursor=pointer]
+                    - generic [ref=e408] [cursor=pointer]: Add
+              - paragraph [ref=e409]: Add an attachment for this student
+          - generic [ref=e411]:
+            - generic [ref=e416]:
+              - button [disabled]
+              - tablist [ref=e418]:
+                - generic [ref=e419]:
+                  - tab "Student Details" [selected] [ref=e420] [cursor=pointer]:
+                    - paragraph [ref=e425] [cursor=pointer]: Student Details
+                  - tab "Family Contacts" [ref=e426] [cursor=pointer]:
+                    - paragraph [ref=e431] [cursor=pointer]: Family Contacts
+                  - tab "Practice Log" [ref=e432] [cursor=pointer]:
+                    - paragraph [ref=e437] [cursor=pointer]: Practice Log
+                  - tab "Attendance & Notes" [ref=e438] [cursor=pointer]:
+                    - paragraph [ref=e443] [cursor=pointer]: Attendance & Notes
+                  - tab "Repertoire" [ref=e444] [cursor=pointer]:
+                    - paragraph [ref=e449] [cursor=pointer]: Repertoire
+                  - tab "Message History" [ref=e450] [cursor=pointer]:
+                    - paragraph [ref=e455] [cursor=pointer]: Message History
+                  - tab "Student Portal" [ref=e456] [cursor=pointer]:
+                    - paragraph [ref=e461] [cursor=pointer]: Student Portal
+              - button [ref=e462] [cursor=pointer]
+            - generic [ref=e466]:
+              - tabpanel [ref=e467]:
+                - generic [ref=e472]:
+                  - heading [level=4]
+                  - generic [ref=e474]:
+                    - paragraph [ref=e476]: Student Details
+                    - button [ref=e478] [cursor=pointer]:
+                      - img [ref=e484] [cursor=pointer]
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - generic [ref=e488]:
+                        - paragraph [ref=e489]: Instruments
+                        - text: "-"
+                      - generic [ref=e490]:
+                        - paragraph [ref=e491]: Skill Level
+                        - text: "-"
+                      - generic [ref=e492]:
+                        - paragraph [ref=e493]: Group Tags
+                        - generic [ref=e494]: "-"
+                    - generic [ref=e495]:
+                      - generic [ref=e496]:
+                        - paragraph [ref=e497]: Student Since
+                        - text: "-"
+                      - generic [ref=e498]:
+                        - paragraph [ref=e499]: School
+                        - text: "-"
+                      - generic [ref=e500]:
+                        - paragraph [ref=e501]: Referrer
+                        - text: "-"
+                  - generic [ref=e503]:
+                    - paragraph [ref=e504]: Preferences
+                    - generic [ref=e506]:
+                      - img [ref=e511]
+                      - paragraph [ref=e513]:
+                        - paragraph [ref=e514]: Show in Student Portal contacts
+                    - generic [ref=e516]:
+                      - img [ref=e521]
+                      - paragraph [ref=e524]:
+                        - paragraph [ref=e525]: Send email lesson reminders
+                    - generic [ref=e527]:
+                      - img [ref=e532]
+                      - paragraph [ref=e535]:
+                        - paragraph [ref=e536]: Send SMS lesson reminders
+              - tabpanel [ref=e537]
+              - tabpanel [ref=e538]
+              - tabpanel [ref=e539]
+              - tabpanel [ref=e540]
+              - tabpanel [ref=e541]
+              - tabpanel [ref=e542]
+  - contentinfo
+  - iframe [ref=e544]:
+    
+  - generic [ref=e551]:
+    - generic [ref=e553]:
+      - generic [ref=e554]: Notifications
+      - button [ref=e557] [cursor=pointer]:
+        - img [ref=e563] [cursor=pointer]
+    - generic [ref=e565]:
+      - generic [ref=e572]:
+        - img [ref=e577] [cursor=pointer]
+        - textbox "Search..." [ref=e579]
+      - generic [ref=e582]:
+        - tablist [ref=e586]:
+          - generic [ref=e587]:
+            - tab "Unread" [selected] [ref=e588] [cursor=pointer]:
+              - paragraph [ref=e593] [cursor=pointer]: Unread
+            - tab "All" [ref=e594] [cursor=pointer]:
+              - paragraph [ref=e599] [cursor=pointer]: All
+        - generic [ref=e602]:
+          - button "Mark all as Read" [disabled]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+              - generic: Mark all as Read
+    - generic [ref=e606]:
+      - tabpanel [ref=e607]:
+        - generic [ref=e613]:
+          - img [ref=e614]
+          - generic [ref=e615]:
+            - heading "No new notifications" [level=4] [ref=e617]
+            - paragraph
+      - tabpanel [ref=e618]
+```

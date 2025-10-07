@@ -7,11 +7,14 @@ export class StudentDetailsPage extends BasePage {
   }
 
   async navigate() {
-  await this.page.goto('(//div[@class="scss-button-label px-2 ng-star-inserted"])[1]');
+    await this.page.goto('https://app.mymusicstaff.com/Teacher/v2/en/students#Students');
+  
 
 }
 async editable(){
-    await this.page.click("//button[@type='submit' and contains(@class, 'btn-icon') and contains(@class, 'icon-button-medium')]");
+  await this.page.click('(//div[@class="scss-button-label px-2 ng-star-inserted"])[1]',{ timeout: 10000 });
+  await this.page.click("//button[contains(@class, 'mat-mdc-menu-trigger') and contains(@class, 'btn-outline-secondary') and contains(@class, 'icon-button-medium')]");
+    
 }
 async update(firstName: string, lastName: string, email: string){
     await this.page.fill('//input[@data-sb-qa="student-first-name-input"]', firstName);
@@ -20,10 +23,10 @@ async update(firstName: string, lastName: string, email: string){
 
 }
 async save(){
-    await this.page.click('(//button[@type="submit"])[6]')
+    await this.page.click('//button[@type="submit" and contains(@class, "mat-mdc-menu-trigger ") and contains(@class, "btn-primary")]')
 }
 async updatestudentdetails(intrument: string){
-    await this.page.click('(//button[@type="button"])[7]')
+    await this.page.click("(//button[contains(@class, 'mat-mdc-menu-trigger')and contains(@class, 'btn-outline-secondary')and contains(@class, 'icon-button-small')])[3]")
     await this.page.fill('//input[@data-sb-qa="edit-student-subjects-input-input"]',intrument)
 }
 

@@ -1,25 +1,6 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="82.73085800000001">
-<testsuite name="e2e\student-onboarding.spec.ts" timestamp="2025-09-28T18:05:53.216Z" hostname="chromium" tests="1" failures="1" skipped="0" time="80.32" errors="0">
-<testcase name="Add a new student" classname="e2e\student-onboarding.spec.ts" time="80.32">
-<failure message="student-onboarding.spec.ts:6:5 Add a new student" type="FAILURE">
-<![CDATA[  [chromium] › e2e\student-onboarding.spec.ts:6:5 › Add a new student ──────────────────────────────
-
-    Test timeout of 80000ms exceeded.
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ..\test-results\student-onboarding-Add-a-new-student-chromium\test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ..\test-results\student-onboarding-Add-a-new-student-chromium\error-context.md
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\student-onboarding-Add-a-new-student-chromium\test-failed-1.png]]
-
-[[ATTACHMENT|..\test-results\student-onboarding-Add-a-new-student-chromium\error-context.md]]
-]]>
-</system-out>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="57.100152">
+<testsuite name="e2e\student-onboarding.spec.ts" timestamp="2025-10-07T09:37:03.266Z" hostname="chromium" tests="1" failures="0" skipped="0" time="55.51" errors="0">
+<testcase name="Add a new student" classname="e2e\student-onboarding.spec.ts" time="55.51">
 </testcase>
 </testsuite>
 </testsuites>

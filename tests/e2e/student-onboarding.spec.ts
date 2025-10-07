@@ -30,8 +30,7 @@ test('Add a new student', async () => {
 await studentlist.navigate();
 await studentlist.search();
 await studentlist.filter();
-await studentlist.column();
-await studentlist.messaging('mayuralokhande@gmail.com')
+await studentlist.messaging('Regarding intrument')
 
 
 await studentdetails.navigate();

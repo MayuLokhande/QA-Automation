@@ -12,14 +12,16 @@ await this.page.goto('https://app.mymusicstaff.com/Teacher/v2/en/students', { wa
     await this.page.click('//button[@data-sb-qa="search-button-on-table"]')
   }
   async filter(){
-    await this.page.click('(//button[@type="submit"])[6]')
+    await this.page.click('//button[@data-sb-qa="apply-button"]')
   }
-async column(){
-  await this.page.click('(//button[@type="submit"])[5]')
-}
 async messaging(sendtoemail : string){
-await this.page.click('(//button[@type="submit"])[4]')
-await this.page.click('(//p[@class="typography-input"])[1]')
-await this.page.fill('//input[@id="MessageStudentParentAssignInput"]',sendtoemail)
+await this.page.getByRole('button', { name: 'Messaging' }).click();
+  await this.page.getByRole('menuitem', { name: 'New Email' }).click();
+  await this.page.locator('lib-form-field-input-text-with-chips-and-ids #MessageStudentParentAssignInput').click();
+  await this.page.getByText('Lokhande, Mayura <').click();
+  await this.page.locator('#formFieldID-TeacherPortalMessageHistorySubjectInput').click();
+  await this.page.locator('#formFieldID-TeacherPortalMessageHistorySubjectInput').fill(sendtoemail);
+  await this.page.getByRole('button', { name: 'Send' }).click();
+
 }
 }

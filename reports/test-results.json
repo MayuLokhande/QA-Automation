@@ -161,7 +161,7 @@
       "specs": [
         {
           "title": "Add a new student",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -174,37 +174,18 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 80320,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 80000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 80000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 80000ms exceeded.\u001b[39m"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 55510,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-28T18:05:54.551Z",
+                  "startTime": "2025-10-07T09:37:04.629Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\mayur\\Automation-QA-Interview-Challenge\\test-results\\student-onboarding-Add-a-new-student-chromium\\test-failed-1.png"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "C:\\Users\\mayur\\Automation-QA-Interview-Challenge\\test-results\\student-onboarding-Add-a-new-student-chromium\\error-context.md"
-                    }
-                  ]
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "f0048c5aefa6fa148fcf-efaa3411aa6c3cbe8485",
@@ -217,11 +198,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-28T18:05:52.964Z",
-    "duration": 82730.85800000001,
-    "expected": 0,
+    "startTime": "2025-10-07T09:37:03.105Z",
+    "duration": 57100.152,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
